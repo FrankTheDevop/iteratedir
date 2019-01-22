@@ -1,0 +1,15 @@
+{
+  "name": "iteratedir",
+  "version": "1.0.0",
+  "description": "Script to iterate a folder of json files (Format: [{},{},...]) and extract the domain from the email property with the count of occurences",
+  "main": "iteratedir.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FrankTheDevop (Frank-Dieter Stadtler)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "command-line-args": "^5.0.2"
+  }
+}
